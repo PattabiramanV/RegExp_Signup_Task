@@ -1,0 +1,129 @@
+body {
+    background: rgb(148, 0, 255);
+    font-family: sans-serif;
+    background: linear-gradient(to top rgba(149, 0, 255, 0.44),rgba(115, 20, 179, 0.732) );
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.sub_container {
+    width: 30%;
+    background: white;
+    padding: 20px 30px 10px 30px;
+    border-radius: 6px;
+    margin-top: 30px;
+
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+form input {
+    width: 89%;
+    height: 36px;
+    border: 2px solid rgb(151, 150, 150);
+    margin-left: 10px;
+}
+.redBorder {
+    border: 2px solid red;
+}
+.red_color{
+    color: red;
+}
+h2 {
+    text-align: center;
+    margin: 0;
+}
+#sinup_top_content{
+
+    text-align: center;
+}
+button#sign_up_btn {
+    height: 30px;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(68, 119, 206);
+    color: white;
+    font-weight: 900;
+    font-size: 14px;
+    cursor: pointer;
+}
+span {
+    color: white;
+    font-weight: bold;
+    margin-left: 28px;
+
+    font-size: 12px;
+}
+strong{
+    color: lightblue;
+
+}
+
+.pop_up_box {
+    background-color: white;
+    width: 30%;
+    padding: 20px 25px;
+    border-radius: 6px;
+}
+.radio_btn {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.pop_up_box {
+    background-color: white;
+    width: 28%;
+    padding: 0 0 20px 0;
+    border-radius: 6px;
+    position: relative;
+    left: 858px;
+    bottom: 358px;
+    display: none;
+
+    
+}
+.pop_up_box p {
+    margin: 9px 0;
+    color: green;
+
+}
+.radio_content{
+    color: red;
+
+}
+
+.top_content p{
+    color: white;
+}
+
+.pop_up_box input{
+    padding: 20px;
+    accent-color:rgb(112, 175, 133) ;
+}
+.pop_up_box>* {
+    padding: 0 0 0 20px;
+}
+
+.top_content {
+    height: 54px;
+    background:rgb(112, 175, 133);
+    color: white;
+    padding: 20px;
+}
+.fa-caret-left:before {
+    content: "\f0d9";
+    font-size: 65px;
+    color: rgb(112, 175, 133);
+    position: relative;
+    right: 44px;
+    bottom: 234px;
+}
